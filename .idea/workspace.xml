@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2ac792de-4661-4ce9-9c99-1f8a0fc484d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/HorseRPG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/HorseRPG.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/RPGHorse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/RPGHorse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/listeners/HorseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/listeners/HorseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/listeners/PlayerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/blueskullgames/horserpg/listeners/PlayerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mcMMOHorses.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/HorseRPG$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/HorseRPG$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/HorseRPG.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$AdvancedBarChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$AdvancedPie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$CustomChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$DrilldownPie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$MultiLineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$SimpleBarChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$SimplePie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics$SingleLineChart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/Metrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/RPGHorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/configs/HorseConfigHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/configs/HorseConfigHandler$Keys.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/configs/HorseConfigHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/configs/MessagesConfigHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/configs/MessagesConfigHandler$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/configs/MessagesConfigHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/listeners/HorseListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/listeners/HorseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/listeners/PlayerListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/listeners/PlayerListener$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/listeners/PlayerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/skills/Agility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/skills/Skill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/skills/Swiftness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/skills/Vitality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/skills/Wrath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/tasks/CooldownTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/tasks/OfferTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/tasks/SaveTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/tasks/ScoreboardTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/ConfigAccessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/GithubDependDownloader$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/GithubDependDownloader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/GithubDependDownloader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/GithubUpdater$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/GithubUpdater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/NewHorseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/NewHorseVarientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/PermToRideListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/ReflectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/ShopManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/TameToClaimListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/TameToClaimListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/atributeutils/AtributeUtilAbstractHorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/atributeutils/AtributeUtilHorse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/blueskullgames/horserpg/utils/atributeutils/BaseAtributeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/PluginConstructorAPI.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +85,6 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="jdkForImporter" value="10" />
       </MavenImportingSettings>
     </option>
@@ -34,18 +93,26 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Ovk3e437kciTbNDMjEEbWiNtQd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sam Blizard\Documents\Java Development\FruitServers Development\Survival\McMMOHorses" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="mcMMOHorses [clean,package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
@@ -75,6 +142,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -93,35 +161,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="288" key="#com.intellij.ide.util.MemberChooser" timestamp="1583472095825">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="765" y="288" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1160@0.0.1920.1160" timestamp="1583472095825" />
-    <state width="1876" height="316" key="GridCell.Tab.0.bottom" timestamp="1583541436011">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1583541436011" />
-    <state width="1876" height="316" key="GridCell.Tab.0.center" timestamp="1583541436011">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1583541436011" />
-    <state width="1876" height="316" key="GridCell.Tab.0.left" timestamp="1583541436011">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1583541436011" />
-    <state width="1876" height="316" key="GridCell.Tab.0.right" timestamp="1583541436011">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state width="1876" height="316" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1583541436011" />
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
