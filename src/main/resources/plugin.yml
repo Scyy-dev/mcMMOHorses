@@ -1,6 +1,6 @@
 name: mcMMOHorse
 main: com.blueskullgames.horserpg.HorseRPG
-version: ${project.version}
+version: 4.3.59
 description: An awesome role-playing plugin for horses.
 authors: [GetGoodKid,Zombie_Striker]
 website: http://www.blueskullgames.com
