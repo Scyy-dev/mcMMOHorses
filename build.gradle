@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'me.scyphers.scycore'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://papermc.io/repo/repository/maven-public/'
+    }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+
+    // Base Minecraft Server Library
+    compileOnly 'org.spigotmc:spigot:1.17-R0.1-SNAPSHOT'
+
+    // Common use external libraries
+    compileOnly "com.github.MilkBowl:VaultAPI:1.7"
+
+    compileOnly "com.comphenix.protocol:ProtocolLib:4.4.0"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+}
+
+test {
+    useJUnitPlatform()
+}
