@@ -586,7 +586,7 @@ public class RPGHorse implements Comparable<RPGHorse> {
 				if (horse instanceof org.bukkit.entity.Mule) {
 					setHasChest(((org.bukkit.entity.Mule) horse).isCarryingChest());
 				}
-			} catch (Exception e) {
+			} catch (Exception ignored) {
 			}
 
 			isBaby = !((Ageable) horse).isAdult();
@@ -594,18 +594,24 @@ public class RPGHorse implements Comparable<RPGHorse> {
 
 			// To prevent duping issues, banishing horses drops the inventory contents on the ground and the stored inventory is cleared
 			if (this.horse instanceof InventoryHolder inventoryHolder) {
+
 				Inventory inv = inventoryHolder.getInventory();
 				Location loc = this.horse.getLocation();
 				World world = loc.getWorld();
 
-				// Drop the items on the ground
-				for (ItemStack item : inv) {
-					world.dropItem(loc, item);
+				if (world != null) {
+
+					// Drop the items on the ground
+					for (ItemStack item : inv) {
+						if (item == null) continue;
+						world.dropItem(loc, item);
+					}
+
+					// Clear the stored inventory
+					inv.clear();
+					Arrays.fill(inventory, null);
 				}
 
-				// Clear the stored inventory
-				inv.clear();
-				Arrays.fill(inventory, null);
 			}
 
 			horse.eject();
