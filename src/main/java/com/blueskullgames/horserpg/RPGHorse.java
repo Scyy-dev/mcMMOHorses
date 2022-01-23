@@ -10,18 +10,18 @@ import com.blueskullgames.horserpg.utils.ReflectionUtil;
 import com.blueskullgames.horserpg.utils.atributeutils.AtributeUtilAbstractHorse;
 import com.blueskullgames.horserpg.utils.atributeutils.AtributeUtilHorse;
 import com.blueskullgames.horserpg.utils.atributeutils.BaseAtributeUtil;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Location;
-import org.bukkit.Material;
+import org.bukkit.*;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.*;
 import org.bukkit.entity.Horse.Color;
 import org.bukkit.entity.Horse.Style;
 import org.bukkit.entity.Horse.Variant;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
+import java.util.Arrays;
 import java.util.UUID;
 
 @SuppressWarnings("deprecation")
@@ -591,6 +591,23 @@ public class RPGHorse implements Comparable<RPGHorse> {
 
 			isBaby = !((Ageable) horse).isAdult();
 			babyAge = ((Ageable) horse).getAge();
+
+			// To prevent duping issues, banishing horses drops the inventory contents on the ground and the stored inventory is cleared
+			if (this.horse instanceof InventoryHolder inventoryHolder) {
+				Inventory inv = inventoryHolder.getInventory();
+				Location loc = this.horse.getLocation();
+				World world = loc.getWorld();
+
+				// Drop the items on the ground
+				for (ItemStack item : inv) {
+					world.dropItem(loc, item);
+				}
+
+				// Clear the stored inventory
+				inv.clear();
+				Arrays.fill(inventory, null);
+			}
+
 			horse.eject();
 			horse.remove();
 			HorseRPG.removeHorseInstance(horse);
