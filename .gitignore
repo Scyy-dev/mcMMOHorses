@@ -1,6 +1,5 @@
-/target/
-
+# Gradle/IntelliJ files
+build/
+.gradle/
+gradlew*
 .idea/
-.settings/
-.classpath
-.project
